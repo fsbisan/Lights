@@ -11,6 +11,7 @@
 		92A242FC2729B39400583E8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A242FB2729B39400583E8C /* ContentView.swift */; };
 		92A242FE2729B39600583E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A242FD2729B39600583E8C /* Assets.xcassets */; };
 		92A243012729B39600583E8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A243002729B39600583E8C /* Preview Assets.xcassets */; };
+		92A243082729B99000583E8C /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A243072729B99000583E8C /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		92A242FB2729B39400583E8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92A242FD2729B39600583E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A243002729B39600583E8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92A243072729B99000583E8C /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				92A242F92729B39400583E8C /* LightsApp.swift */,
+				92A243072729B99000583E8C /* CircleView.swift */,
 				92A242FB2729B39400583E8C /* ContentView.swift */,
 				92A242FD2729B39600583E8C /* Assets.xcassets */,
 				92A242FF2729B39600583E8C /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A243082729B99000583E8C /* CircleView.swift in Sources */,
 				92A242FC2729B39400583E8C /* ContentView.swift in Sources */,
 				92A242FA2729B39400583E8C /* LightsApp.swift in Sources */,
 			);
@@ -277,7 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
